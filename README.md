@@ -27,3 +27,6 @@
 **class**
 1) @instance
 2) attr_accessor :one, :two
+
+**inheritance**
+1) class SubClass < SuperClass
