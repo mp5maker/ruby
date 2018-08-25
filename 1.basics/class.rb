@@ -33,6 +33,11 @@ class Dog
 
     ## Multiple attr_accessor
     attr_accessor :city, :country
+    
+    attr_reader :habit
+    def habit=(habit)
+        @habit = habit
+    end
 end
 
 fido = Dog.new
