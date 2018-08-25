@@ -1,6 +1,6 @@
-## Simple Ruby Practice ##
+# Simple Ruby Practice #
 
-#### 1. Basics ####
+## 1. Basics ##
 **string_number_function**
 1) [string].upcase
 2) [string].reverse
