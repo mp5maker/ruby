@@ -30,3 +30,5 @@
 
 **inheritance**
 1) class SubClass < SuperClass
+2) attr_reader, attr_writer :: Method Overriding
+3) super

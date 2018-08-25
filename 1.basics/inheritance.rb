@@ -5,6 +5,8 @@ class SpecializedDog < Dog
 
     ## Method Overriding
     def move(destination)
+        ## Gets what is there in the Superclass method
+        super
         puts ("#{@name} moves fast to the #{destination}")
     end
 
