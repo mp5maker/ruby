@@ -1,5 +1,9 @@
 def area(width = 1, height = 1)
-    return (width*height)
+    ## Explicit Return Value
+    # return (width*height)
+    
+    ## Implicit Return Value
+    width*height
 end
 
 ## Displaying what the app does 
