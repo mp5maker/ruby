@@ -6,6 +6,8 @@ class SpecializedDog < Dog
     ## Method Overriding
     def move(destination)
         ## Gets what is there in the Superclass method
+        ## super calls the overridden method with the same arguments the overriding method received
+        ## super() calls the overriden method with no arguments, even if the overriding method did receive arguments
         super
         puts ("#{@name} moves fast to the #{destination}")
     end
