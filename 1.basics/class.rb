@@ -50,5 +50,6 @@ puts(fido.owner)
 puts(fido.city)
 puts(fido.country)
 
-mido = Dog.new
-fido.getName("")
+## Throwing an error
+# mido = Dog.new
+# mido.getName("")
