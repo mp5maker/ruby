@@ -19,7 +19,7 @@
 7) unless() :: Opposite of if
 
 **functions**
-1) Implicit return value
+1) implicit return value
 
 **require**
 1) require_relative, require, load
@@ -35,3 +35,17 @@
 4) object.methods
 5) object.superclass
 6) object.to_s [Overriding]
+
+## 1. Intermediate ##
+**employee**
+1) float, fixnum
+2) nil
+3) initialize [Constructor]
+4) self [method]
+5) class methods
+
+**format_sequence**
+1) format %i, %s, 4.3%f, .2%f
+
+**class_methods**
+1) self.class_methods [Static method]
