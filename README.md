@@ -17,6 +17,8 @@
 5) rand(100)
 6) until() :: Opposite of while
 7) unless() :: Opposite of if
+8) input.inspect
+9) p input
 
 **functions**
 1) implicit return value
@@ -36,7 +38,7 @@
 5) object.superclass
 6) object.to_s [Overriding]
 
-## 1. Intermediate ##
+## 2. Intermediate ##
 **employee**
 1) float, fixnum
 2) nil
@@ -49,3 +51,8 @@
 
 **class_methods**
 1) self.class_methods [Static method]
+
+## 3. Arrays ##
+**basics**
+1) array.first, array.last, array.length, array.find_index(value)
+2) array.push(value), array.pop, array.shift, array << value
