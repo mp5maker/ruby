@@ -32,3 +32,6 @@
 1) class SubClass < SuperClass
 2) attr_reader, attr_writer :: Method Overriding
 3) super
+4) object.methods
+5) object.superclass
+6) object.to_s [Overriding]

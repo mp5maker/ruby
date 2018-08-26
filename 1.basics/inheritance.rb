@@ -15,6 +15,11 @@ class SpecializedDog < Dog
     def habit=(habit)
         @habit = "#{@name} is changing habbit to #{habit}"
     end
+
+    ## Overriding to_s 
+    def to_s
+        "#{@name} moves fast and #{@habit}"
+    end
 end
 
 rido = SpecializedDog.new
@@ -27,3 +32,13 @@ puts(rido.breed)
 puts(rido.training)
 puts(rido.move("Mars"))
 puts(rido.habit)
+
+## Gettting all the methods
+puts(rido.methods)
+
+## Gettting all the methods
+puts(Dog.superclass)
+puts(SpecializedDog.superclass)
+
+## Overriding to_s
+puts(rido.to_s)
