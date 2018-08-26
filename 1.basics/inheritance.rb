@@ -42,3 +42,4 @@ puts(SpecializedDog.superclass)
 
 ## Overriding to_s
 puts(rido.to_s)
+puts(rido)
