@@ -56,3 +56,9 @@
 **basics**
 1) array.first, array.last, array.length, array.find_index(value)
 2) array.push(value), array.pop, array.shift, array << value
+3) array.join('delimiter'), merged_letters.chars, merged_letters.split('delimiter')
+
+**loop**
+1) While Loops
+2) Blocks, &my_blocks, do
+3) 

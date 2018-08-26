@@ -30,3 +30,17 @@ p prices
 prices << 5.99
 prices << 8.99
 p prices
+
+## Merging using arrays
+letters = ["P", "h", "o", "t", "o", "n"]
+merged_letters = letters.join('-')
+puts(merged_letters)
+
+## Getting all the characters in a word
+p merged_letters.chars
+
+## Splitting using delimiter
+p merged_letters.split('-')
+
+## Capitalize [First letter Uppercase only]
+p merged_letters.capitalize
