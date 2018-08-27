@@ -60,5 +60,8 @@
 
 **loop**
 1) While Loops
-2) Blocks, &my_blocks, do
+
+**blocks**
+1) Blocks, &my_blocks, do
+2) yield, {}
 3) 
