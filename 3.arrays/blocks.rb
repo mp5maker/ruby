@@ -47,3 +47,10 @@ end
 another_day_another_work {|days, hours|
     puts("I work #{hours}/#{days}")
 }
+
+## For each loop in ruby 
+['First', 'Second', 'Third'].each{ |item|
+    puts(item)
+}
+
+## Creating a class now
