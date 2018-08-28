@@ -52,5 +52,3 @@ another_day_another_work {|days, hours|
 ['First', 'Second', 'Third'].each{ |item|
     puts(item)
 }
-
-## Creating a class now

@@ -1,0 +1,4 @@
+It contains a blank page
+Every lines is like an array
+First line is in array[0] index
+Second line is in array[1] index

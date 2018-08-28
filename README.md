@@ -65,3 +65,12 @@
 1) Blocks, &my_blocks, do
 2) yield, {}
 3) each
+
+## 4. File ##
+**basics**
+1) file=File.open, file.close, lines=file.readlines
+2) File + Filter + Each 
+3) lines.include?("word")
+4) lines.find_all{|line|}
+5) Blocks with return value
+6) Map
