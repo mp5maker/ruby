@@ -74,3 +74,6 @@
 4) lines.find_all{|line|}
 5) Blocks with return value
 6) Map
+7) Hashes
+8) Nil => Falsy, Hash.new
+9) Hash, Each, Class

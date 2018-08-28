@@ -57,3 +57,59 @@ cube = height.map{ |number|
 }
 
 p square, cube
+
+## Hash [It looks strange as the brain cannot comprehend whether it is javascript or php]
+elements = {
+    "H" => "Hydrogen",
+    "Li" => "Lithium",
+}
+
+p elements
+
+## All the ways to create a hash
+several_ways = {
+    ## key => value concept like php
+    1 => "superman",
+    "two" => "spiderman",
+    :three => "batman"
+}
+
+## Access the data in different way
+p several_ways[:three]
+p several_ways[1]
+p several_ways["two"]
+
+## Only Nil is Falsy
+votes = Hash.new 
+p votes['Brian Martin']
+
+several_ways.each{ |key,value|
+    puts("#{key} :: #{value}")
+}
+
+## Including a hash data in a class
+employee = {
+    "name" => "Photon Khan",
+    "age" => 27,
+    "salary" => 5000
+}
+
+class Worker
+    attr_accessor :employee
+
+    def getName
+        @employee["name"]
+    end
+    def getAge
+        @employee["age"]
+    end
+    def getSalary
+        @employee["salary"]
+    end
+end
+
+worker = Worker.new
+worker.employee = employee
+puts(worker.getName)
+puts(worker.getAge)
+puts(worker.getSalary)
