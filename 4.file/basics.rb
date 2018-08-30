@@ -113,3 +113,20 @@ worker.employee = employee
 puts(worker.getName)
 puts(worker.getAge)
 puts(worker.getSalary)
+
+
+## Hash Default Blocks [Array of Objects]
+class TeamMembers
+    attr_accessor :type, :name
+end
+
+players = Hash.new do |hash, key|
+    player = TeamMembers.new
+    player.type = "Team A"
+    hash[key] = player 
+end
+
+players['photon'].name = "Shabuktagin Photon Khan"
+players['samith'].name = "Samith Zaman"
+
+p players

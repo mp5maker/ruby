@@ -77,3 +77,4 @@
 7) Hashes
 8) Nil => Falsy, Hash.new
 9) Hash, Each, Class
+10) Hash Default Blocks
